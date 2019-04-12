@@ -26,7 +26,11 @@ ul {
     margin-right: 100px;
     margin-top: -100px;
     margin-bottom: 300px;
+<<<<<<< HEAD
     font-size: 1.075em;
+=======
+    font-size: 1em;
+>>>>>>> 23604d85049518c6cc966a2f7b5745d8c8ff91e1
     color: purple;
     float: right;
 }
