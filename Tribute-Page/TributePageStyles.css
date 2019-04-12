@@ -1,0 +1,64 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    color: red;
+    font-weight: bold;
+    background-image: url("https://hbr.org/resources/images/article_assets/2015/06/JUN15_23_Linkin-Park_The-Hunting-Party-Tour_Hamburg-Germany.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.25em;
+    margin-left:25px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#bio {
+    width: 600px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+    font-size: 1em;
+    color: red;
+    float: right;
+}
+
+#reasons,
+#members,
+#favSong {
+}
+
+#members {
+    margin-left: 0;
+    text-align: center;
+    font-size: 150%;
+}
+
+#reasons {
+    font-size: 150%;
+    text-align: center;
+    
+}
+
+#favSong {
+    margin: 0;
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+#container{
+    width: 1024px;
+    margin-top: 400px;
+    margin-left: 250px;
+    padding:10px;
+    display:flex;
+    flex-wrap:no-wrap;
+    justify-content:space-between;
+  }
