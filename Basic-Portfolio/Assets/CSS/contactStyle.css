@@ -1,0 +1,76 @@
+body, html {
+    background-image: url("../Images/codingpattern.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+
+section {
+    width: 960px;
+    height:auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section h2 {
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 250px;
+    padding: 50px;
+    text-align: center;
+    width:250px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin:50px;
+    padding:10px;
+    text-align: right;
+    float: right;    
+}
+
+nav ul li {
+    display: inline;
+    padding: 8px;
+    font-size: 18px;
+    
+}
+
+a { 
+    padding: 8px;
+    text-decoration: none;
+    color: #b2a69d;
+}
+
+input {
+    width: 75%;
+    margin: 0 120px 10px 120px;
+    
+}
+
+form p {
+    margin: 0 120px 0 120px;
+    color: #b2a69d;
+}
+
+textarea {
+    width: 75%;
+    margin: 0 120px 10px 120px;
+}
+
+.submit {
+    width:25%;
+    padding: 10px;
+    margin: 0 360px 10px 360px;
+}
