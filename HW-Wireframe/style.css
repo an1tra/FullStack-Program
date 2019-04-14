@@ -15,19 +15,19 @@ footer {
     }
 
 header {
-    margin: 10px -300px 10px 300px;
+    margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
 nav {
-    margin: 0 -300px 10px 300px; 
+    margin: 10px auto; 
     padding: 20px;
     text-align: center;
 }
 section {
     float: left;
     width: 495px;
-    margin: 0 -300px 10px 300px;
+    margin: 0 auto;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -44,7 +44,8 @@ article {
 aside {
     width: 435px;
     float: right;
-    margin: 0 -300px 10px 300px;
+    margin: 0px auto;
+    margin-bottom: 10px;
     text-align: center;
     padding-bottom: 230px;
 }
@@ -52,7 +53,7 @@ footer {
     clear: both;
     text-align: center;
     padding: 20px;
-    margin: 0 -300px 10px 300px;
+    margin-top: 10px;
 }
 
 .article-header {

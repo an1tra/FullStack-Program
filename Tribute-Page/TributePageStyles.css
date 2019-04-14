@@ -2,66 +2,65 @@ body {
     font-family: 'Shadows Into Light', cursive;
     color: purple;
     font-weight: bold;
-    background-image: url("https://hbr.org/resources/images/article_assets/2015/06/JUN15_23_Linkin-Park_The-Hunting-Party-Tour_Hamburg-Germany.jpg");
+    background-image: url("backgroundLP.jpg");
     background-repeat: no-repeat;
-    position: absolute;
-    margin: 0;
-    padding: 0;
     background-size: cover;
 }
+ 
 
-h1 {
-    font-size: 2.25em;
-    margin-left:25px;
-    margin-top: 50px;
+header {
     color: white;
 }
 
-ul {
+nav ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav {
     list-style-type: none;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 18px;
 }
 
-#bio {
-    width: 600px;
-    margin-right: 100px;
-    margin-top: -100px;
-    margin-bottom: 300px;
-    font-size: 1.09em;
-    color: purple;
+section {
+    width: 50%;
     float: right;
+    background-color: rgba(101,39,90, 0.3);
 }
 
-#reasons,
-#members,
-#favSong {
+article {
+    padding: 20px;
 }
 
-#members {
-    margin-left: 0;
+article p {
+    text-align: left;
+    color: white;
+}
+
+article h3 {
     text-align: center;
-    font-size: 150%;
+    color: white;
 }
 
-#reasons {
-    font-size: 150%;
+aside {
+    color: white;
+    width:50%;
+}
+
+aside a {
+    text-decoration: none;
+    color: purple;
+}
+
+footer {
+    clear:both;
     text-align: center;
-    
 }
 
-#favSong {
-    margin: 0;
-    text-align: center;
-    font-size: 150%;
-    
+footer a {
+    color: purple;
 }
 
-#container{
-    width: 1024px;
-    margin-top: 400px;
-    margin-left: 225px;
-    margin-right: 50px;
-    padding:10px;
-    display:flex;
-    flex-wrap:no-wrap;
-    justify-content:space-between;
-  }
