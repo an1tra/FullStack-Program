@@ -15,6 +15,7 @@ section {
 
 section h2 {
     text-align: center;
+    color: #4aaaa5;
 }
 
 nav {
@@ -56,7 +57,7 @@ a {
 input {
     width: 75%;
     margin: 0 120px 10px 120px;
-    
+    color: #b2a69d;
 }
 
 form p {
@@ -67,10 +68,13 @@ form p {
 textarea {
     width: 75%;
     margin: 0 120px 10px 120px;
+    color: #b2a69d;
 }
 
 .submit {
     width:25%;
     padding: 10px;
     margin: 0 360px 10px 360px;
+    background-color: #4aaaa5;
+    color: white;
 }
