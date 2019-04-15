@@ -1,0 +1,48 @@
+body, html {
+    background-image: url("../Images/codingpattern.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100%;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 250px;
+    padding: 50px;
+    text-align: center;
+    width:250px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin:50px;
+    padding:10px;
+    text-align: right;
+    float: right;    
+}
+
+nav ul li {
+    display: inline;
+    padding: 8px;
+    font-size: 18px;
+    
+}
+
+a { 
+    padding: 8px;
+    text-decoration: none;
+    color: #b2a69d;
+}
