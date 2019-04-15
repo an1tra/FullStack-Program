@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+
+        <div id="fixed">
+          &lt;div&gt;<br> position: fixed
+        </div>
+      
+        <!-- Wrapper -->
+        <div class="wrapper">
+          <!-- Content Section -->
+          <section id="content">
+            <!-- Heading 1: The Most Important Headline -->
+            <h1>CSS Positioning</h1>
+      
+            <!-- Some body copy -->
+            <p>You start by creating a wrapper for the page content. Within the wrapper tag, a section tag given the id "content" is created. In the top left corner of the viewport there is a fixed div. 
+                This can be used for several things. Two specific examples would be applying a fixed logo to the site or used for an advertisement. Since the fixed div is located outside of the 
+                content wrapper, it will always remain in the top left corner and will not scroll out of the viewport as the page content scrolls.
+            </p>
+      
+            <!-- relatively positioned div -->
+            <div id="relative">
+              &lt;div&gt;<br> position: relative
+      
+              <!-- a div positioned absolutely in the relative div -->
+              <div id="absolute">
+                &lt;div&gt;<br> position: absolute
+              </div>
+            </div>
+      
+            <!-- Continue body copy -->
+            <p>Above, there are two div elements overlapping eachother to demonstrate the relative and absolute values of the css position property. It is known that div elements are block level elements, therefore without the position properties associated 
+                with the div elements, these two boxes would be displayed on seperate lines. The light grey box's position is - as the caption reads -given an relative position. This means it allows you to specify how CSS should move it relative to its 
+                current position in the normal flow of the page. It pairs with the CSS offset properties of left or right, and top or bottom. These say how many pixels, percentages, or ems to move the item away from where it is normally positioned.
+                </p>
+      
+            <p>Changing an element's position to relative does not remove it from the normal flow - other elements around it still behave as if that item were in its default position. The light grey div element still behaves like a block element with paragraphs 
+                beginning above and below it, rather than right next to it.  As previously mentioned, these two divs would be stacked one above the other. So how is the dark grey box overlapping the grey box? The dark grey box's position property is set to absolute. 
+                locks the element in place relative to its parent container. Unlike the relative position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) 
+                are used to adjust the position.
+            </p>
+      
+            <p>One nuance with absolute positioning is that it will be locked relative to its closest positioned ancestor. If you forget to add a position rule to the parent item, (this is typically done using position: relative;), the browser will keep looking up 
+                the chain and ultimately default to the body tag. This can be used to write articles, display pictures, or even site advertisement.
+            </p>
+      
+          </section>
+        </div>
+
+    
+      </body>
+      
+      
+</html>
