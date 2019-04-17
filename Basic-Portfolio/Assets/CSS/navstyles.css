@@ -4,7 +4,7 @@ body, html {
     background-repeat:no-repeat;
     background-size:cover;
     height: 100%;
-    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Inconsolata", "Monospace", Helvetica, sans-serif;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
 }
 
 nav {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.25);
     width: 100%;
 }
 
@@ -20,7 +20,7 @@ nav {
     background-color: #4aaaa5;
     color: white;
     margin-left: 250px;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     width:250px;
 
@@ -28,7 +28,7 @@ nav {
 
 ul {
     list-style-type: none;
-    margin:50px;
+    margin:15px;
     padding:10px;
     text-align: right;
     float: right;    
@@ -44,5 +44,5 @@ nav ul li {
 a { 
     padding: 8px;
     text-decoration: none;
-    color: #b2a69d;
+    color: white;
 }
