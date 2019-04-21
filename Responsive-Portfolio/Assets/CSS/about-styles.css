@@ -1,0 +1,22 @@
+section {
+    width: 40%;
+    position: relative;
+    left: 600px;
+}
+
+section > h1 {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+section p {
+    text-indent: 25px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+section a {
+    position: relative;
+    text-align: center;
+}
