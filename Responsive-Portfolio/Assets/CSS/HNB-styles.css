@@ -6,6 +6,7 @@ body {
     background-image: url("../images/profileavatar.jpg");
     background-repeat: no-repeat;
     background-position-x: 700px; 
+    font-family: 'Source Code Pro', monospace;
 }
 
 header h1 {
